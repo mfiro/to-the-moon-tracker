@@ -52,7 +52,7 @@ if __name__ == "__main__":
                         datefmt='%Y-%m-%d T %H-%M-%S',
                         level=logging.DEBUG,
                         )
-    debug = True
+    debug = False
 
     # loading config.ini file
     cfg = load_cfg('config.ini')
